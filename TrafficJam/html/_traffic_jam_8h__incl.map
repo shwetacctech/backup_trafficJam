@@ -1,0 +1,19 @@
+<map id="headers/TrafficJam.h" name="headers/TrafficJam.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="326,5,467,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,80,177,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="343,35,160,79,159,73,342,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="201,80,309,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="373,35,294,75,292,70,371,30"/>
+<area shape="rect" id="Node000004" href="$_open_g_l_window_8h.html" title=" " alt="" coords="333,80,460,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="399,33,399,64,394,64,394,33"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="484,80,562,107"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="420,30,489,70,486,74,417,35"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="586,80,639,107"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="435,30,573,76,571,81,433,35"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="184,155,305,181"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="371,110,286,150,284,145,369,105"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="328,155,465,181"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="399,107,399,139,394,139,394,107"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="488,155,601,181"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="423,105,506,145,504,150,421,110"/>
+</map>
