@@ -1,55 +1,40 @@
-# Point3D Class - Geometry Entity
+# Point3D Class
 
-The `Point3D` class represents a 3D point entity within a geometric system. It encapsulates the coordinates (X, Y, Z) of a point in space.
+The `Point3D` class represents a point in a three-dimensional space with X, Y, and Z coordinates. This class provides methods to access and modify these coordinates.
 
-## Overview
+## Features
 
-The `Point3D` class provides functionalities to manage and retrieve the coordinates of a 3D point.
-
-- **Constructors**: Initializes a Point3D object with default or specified coordinates.
-- **Getter methods**: Accesses individual X, Y, and Z coordinates.
-- **Setter methods**: Sets individual X, Y, and Z coordinates.
-
-This class is useful for storing and manipulating points in 3D space for various geometric calculations or applications.
+- **Coordinate Access:** Allows access to X, Y, and Z coordinates of a point.
+- **Getter and Setter Methods:** Provides methods to retrieve and modify the coordinates.
+- **Support for 3D Space:** Designed for managing points in a three-dimensional space.
 
 ## Usage
 
-### Initializing a Point3D
+To use the `Point3D` class within your project:
 
-To create a `Point3D` instance:
+1. **Integration:** Include the necessary headers and link with the library or DLL containing the `Point3D` class.
+2. **Instantiation:** Create instances of `Point3D` using default or parameterized constructors.
+3. **Accessing and Modifying Coordinates:** Utilize getter and setter methods to retrieve and modify the coordinates of the point.
 
-1. Instantiate a `Point3D` object using either the default constructor or by specifying X, Y, and Z coordinates.
+## Class Structure
 
-    ```cpp
-    #include "Point3D.h"
+- **`Point3D` Class:**
+  - **Constructors:** Provides default and parameterized constructors to create a point in 3D space.
+  - **Destructor:** Cleans up resources allocated for the `Point3D` object.
+  - **Getter and Setter Methods:** Functions to access and modify X, Y, and Z coordinates.
 
-    int main() {
-        // Default constructor creates a point at the origin (0, 0, 0)
-        Point3D defaultPoint;
+## Example Usage
 
-        // Create a point with specific coordinates
-        Point3D customPoint(1.0, 2.5, -3.7);
-        // ...
-        return 0;
-    }
-    ```
+```cpp
+// Example usage of the Point3D class
 
-### Accessing Point Coordinates
+// Include necessary headers
+#include "Point3D.h"
 
-You can retrieve and modify individual X, Y, and Z coordinates using the following methods:
+// Create a Point3D object
+Point3D point1; // Creates a point at coordinates (0, 0, 0)
+Point3D point2(1.0, 2.0, 3.0); // Creates a point at coordinates (1.0, 2.0, 3.0)
 
-- `X()`, `Y()`, `Z()`: Retrieve the respective coordinate values.
-- `setX()`, `setY()`, `setZ()`: Modify the respective coordinate values.
-
-    ```cpp
-    // Example usage of getting and setting coordinates
-    Point3D myPoint(2.0, 3.0, 4.0);
-
-    double xCoord = myPoint.X();
-    double yCoord = myPoint.Y();
-    double zCoord = myPoint.Z();
-
-    myPoint.setX(5.0);
-    myPoint.setY(6.0);
-    myPoint.setZ(7.0);
-    ```
+// Access and modify coordinates
+double x = point2.X(); // Retrieves the X coordinate
+point1.setY(5.0); // Sets the Y coordinate to 5.0
